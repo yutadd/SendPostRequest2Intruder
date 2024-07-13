@@ -5,4 +5,19 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SendPostRequest2Intruder</name>
   <description>Literally!</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.portswigger.burp.extensions</groupId>
+  		<artifactId>montoya-api</artifactId>
+  	</dependency>
+  </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>net.portswigger.burp.extensions</groupId>
+  			<artifactId>montoya-api</artifactId>
+  			<version>LATEST</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
